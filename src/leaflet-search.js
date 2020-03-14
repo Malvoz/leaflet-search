@@ -303,7 +303,7 @@ L.Control.Search = L.Control.extend({
 		input.autocapitalize = 'off';
 		input.placeholder = text;
 		input.style.display = 'none';
-		input.role = 'search';
+		input.role = 'searchbox';
 		input.id = input.role + input.type + input.size;
 		
 		label.htmlFor = input.id;
